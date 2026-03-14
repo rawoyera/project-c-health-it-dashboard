@@ -1,5 +1,5 @@
 # 🏥 Health IT Dashboard — Wearable Fitness Data
-**Tools:** Python (Pandas) · Tableau · Power BI  
+**Tools:** Python (Pandas) · Tableau  
 **Data:** 36,500 rows · 100 users · Daily wearable metrics · Full year 2023
 
 ---
@@ -28,7 +28,6 @@ This project simulates a health informatics use case: translating daily wearable
 
 - **Python (Pandas)** — data cleaning, missing value handling, feature engineering, CSV exports
 - **Tableau Public** — interactive dashboard with KPI tiles, trend lines, and behavioral scatter plots
-- **Power BI Desktop** — parallel dashboard build demonstrating DAX measures and Power BI-specific formatting
 
 ---
 
@@ -51,8 +50,8 @@ After cleaning: **0 missing values** across all 36,500 rows.
 - Extracted `Month` and `Quarter` columns for time-series aggregation
 
 **Exported files:**
-- `cleaned_fitness_data.csv (1)` — row-level data for scatter plots and behavioral analysis
-- `monthly_trends.csv (1)` — monthly averages for trend line charts
+- `cleaned_fitness_data.csv` — row-level data for scatter plots and behavioral analysis
+- `monthly_trends.csv` — monthly averages for trend line charts
 - `kpi_summary.csv` — single-row population KPIs for executive snapshot tiles
 
 ---
@@ -109,25 +108,17 @@ The ability to move from raw sensor data → cleaned dataset → executive dashb
 ![Tableau Dashboard](tableau_screenshot.png)
 > *Executive snapshot, trend lines, and behavioral relationship charts built in Tableau Public*
 
-### Power BI Dashboard
-![Power BI Dashboard](visuals/powerbi_screenshot.png)
-> *Parallel build in Power BI Desktop using DAX measures and Card visuals*
-
 ---
 
 ## 📁 Repository Structure
 
 ```
 project-c-health-it-dashboard/
-├── data/
-│   ├── cleaned_fitness_data.csv
-│   ├── monthly_trends.csv
-│   └── kpi_summary.csv
-├── notebooks/
-│   └── data_cleaning.ipynb
-├── visuals/
-│   ├── tableau_screenshot.png
-│   └── powerbi_screenshot.png
+├── cleaned_fitness_data.csv
+├── monthly_trends.csv
+├── kpi_summary.csv
+├── Health_IT_Dashboard.ipynb
+├── tableau_screenshot.png
 └── README.md
 ```
 
