@@ -51,8 +51,8 @@ After cleaning: **0 missing values** across all 36,500 rows.
 - Extracted `Month` and `Quarter` columns for time-series aggregation
 
 **Exported files:**
-- `cleaned_fitness_data.csv` — row-level data for scatter plots and behavioral analysis
-- `monthly_trends.csv` — monthly averages for trend line charts
+- `cleaned_fitness_data.csv (1)` — row-level data for scatter plots and behavioral analysis
+- `monthly_trends.csv (1)` — monthly averages for trend line charts
 - `kpi_summary.csv` — single-row population KPIs for executive snapshot tiles
 
 ---
