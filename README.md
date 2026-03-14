@@ -106,7 +106,7 @@ The ability to move from raw sensor data → cleaned dataset → executive dashb
 ## 📸 Dashboard Screenshots
 
 ### Tableau Dashboard
-![Tableau Dashboard](visuals/tableau_screenshot.png)
+![Tableau Dashboard](tableau_screenshot.png
 > *Executive snapshot, trend lines, and behavioral relationship charts built in Tableau Public*
 
 ### Power BI Dashboard
